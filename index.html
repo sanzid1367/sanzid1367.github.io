@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Sanzid Zaman - Computer Science Student and Software Architect.">
+    <title>Sanzid Zaman</title>
+
+    <!-- Design Foundation -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;500&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./asset/favicon.png">
+
+    <!-- Core Assets -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="grain selection:bg-white selection:text-black">
+
+    <a href="#main"
+        class="sr-only focus:not-sr-only fixed top-4 left-4 z-[100] bg-white text-black px-4 py-2 rounded-full font-bold">Skip
+        to content</a>
+
+    <!-- NAVIGATION -->
+    <header class="nav-prime" role="banner">
+        <div class="max-w-7xl mx-auto px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-6">
+                <a href="#about" class="flex items-center gap-3 group" title="Return to Top">
+                    <div
+                        class="w-8 h-8 bg-white rounded-lg flex items-center justify-center rotate-3 group-hover:rotate-0 transition-transform duration-500">
+                        <span
+                            class="text-black font-black text-xl mono -rotate-3 group-hover:rotate-0 transition-inherit">S</span>
+                    </div>
+                    <div class="hidden sm:block">
+                        <p class="mono text-[10px] font-bold leading-none uppercase">Sanzid Zaman</p>
+                    </div>
+                </a>
+            </div>
+
+            <nav class="hidden md:flex items-center gap-12 text-[10px] mono tracking-widest text-[#a1a1aa]"
+                role="navigation" aria-label="Main Navigation">
+                <a href="#about" class="hover:text-white transition-colors flex items-center gap-2">
+                    <span class="text-[8px] opacity-30">01</span> ABOUT
+                </a>
+                <a href="#matrix" class="hover:text-white transition-colors flex items-center gap-2">
+                    <span class="text-[8px] opacity-30">02</span> SKILLS
+                </a>
+                <a href="#projects" class="hover:text-white transition-colors flex items-center gap-2">
+                    <span class="text-[8px] opacity-30">03</span> PROJECTS
+                </a>
+            </nav>
+
+            <div class="flex items-center gap-6">
+                <div class="hidden lg:flex flex-col items-end mono text-[8px] text-zinc-500 uppercase tracking-widest">
+                    <span>Worldwide Collaboration</span>
+                    <span class="text-white">Active for Hire</span>
+                </div>
+                <a href="#contact"
+                    class="btn-base btn-white px-6 py-3 text-[10px] font-black mono tracking-tighter uppercase rounded-xl"
+                    aria-label="Navigate to Contact Section">
+                    Hire Me_
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main" class="pt-32 pb-20">
+
+        <!-- HERO -->
+        <section id="about" class="max-w-6xl mx-auto px-8 mb-40 relative">
+            <div class="flex flex-col items-center text-center space-y-10 min-h-[60vh] justify-center stagger-init">
+                <div class="relative group">
+                    <div class="radar-container">
+                        <div class="radar-sweep"></div>
+                        <div class="radar-circle w-[140%] h-[140%]"></div>
+                        <div class="radar-circle w-[180%] h-[180%]"></div>
+                    </div>
+
+                    <div
+                        class="absolute inset-0 bg-white/10 blur-[100px] rounded-full group-hover:bg-white/20 transition-all duration-1000">
+                    </div>
+                    <img src="asset/sanzid_zaman.webp" alt="Sanzid Zaman"
+                        class="relative w-48 h-48 rounded-[56px] object-cover border-4 border-white/5 mx-auto shadow-2xl hover:scale-105 transition-all duration-700" loading="lazy">
+                </div>
+
+                <div class="space-y-6 relative z-10 flex flex-col items-center">
+                    <div
+                        class="inline-flex items-center gap-3 px-5 py-2.5 bg-white/5 border border-white/10 rounded-full">
+                        <span class="w-2.5 h-2.5 bg-green-500 rounded-full neural-point"></span>
+                        <span
+                            class="mono text-[10px] uppercase tracking-[0.3em] font-medium text-zinc-300">System_Status:
+                            Ready_for_Hire</span>
+                    </div>
+
+                    <h1 class="text-display font-black tracking-tighter text-glow leading-[1] md:leading-[0.85] py-2 text-glitch"
+                        data-text="Sanzid Zaman">
+                        Sanzid Zaman</h1>
+
+                    <p class="text-xl md:text-2xl text-zinc-400 font-light max-w-4xl mx-auto leading-relaxed">
+                        Redefining the digital frontier through
+                        <span
+                            class="text-white font-medium italic underline decoration-zinc-700 underline-offset-8">architectural
+                            precision</span>
+                        and high-fidelity logic.
+                    </p>
+                </div>
+
+                <div class="flex flex-wrap justify-center gap-6 pt-6 relative z-10">
+                    <a href="#contact"
+                        class="btn-base btn-white px-10 py-5 rounded-2xl font-bold flex items-center gap-3">
+                        Initiate Connection <i data-lucide="zap" class="w-5 h-5"></i>
+                    </a>
+                    <a href="asset/CV- SANZID.pdf" target="_blank"
+                        class="btn-base btn-outline px-10 py-5 rounded-2xl font-bold mono text-sm flex items-center gap-3">
+                        <i data-lucide="download" class="w-5 h-5"></i> Get Full Log
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- DATA-DRIVEN BENTO GRID -->
+        <section id="matrix" class="max-w-6xl mx-auto px-8 space-y-12 mb-40 reveal">
+            <div class="flex items-center gap-6">
+                <h2 class="text-4xl font-bold tracking-tight">System Core</h2>
+                <div class="h-px flex-grow bg-zinc-900"></div>
+                <span class="mono text-xs text-zinc-500 uppercase tracking-widest">v2.0_Nodes</span>
+            </div>
+
+            <div id="bento-grid" class="grid grid-cols-1 md:grid-cols-12 gap-6">
+                <!-- Injected via JavaScript -->
+            </div>
+        </section>
+
+        <!-- PROJECT ARCHIVE -->
+        <section id="projects" class="max-w-6xl mx-auto px-8 space-y-12 mb-40 reveal">
+            <div class="flex items-center gap-6">
+                <h2 class="text-4xl font-bold tracking-tight">Project Archive</h2>
+                <div class="h-px flex-grow bg-zinc-900"></div>
+                <span class="mono text-xs text-zinc-500 uppercase tracking-widest">Deployment_Log</span>
+            </div>
+
+            <div id="project-grid" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Injected via JavaScript -->
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="max-w-6xl mx-auto px-8 reveal">
+            <div class="bento-card p-16 md:p-24 text-center">
+                <h2 class="text-5xl md:text-7xl font-black tracking-tighter mb-8 leading-none">Let's build<br>the
+                    future.</h2>
+                <p class="text-zinc-400 text-lg max-w-xl mx-auto mb-12 font-light">
+                    Currently accepting high-impact internship opportunities and technical collaborations worldwide.
+                </p>
+
+                <div class="flex flex-col md:flex-row items-center justify-center gap-6">
+                    <a href="mailto:sanzid875@gmail.com"
+                        class="w-full md:w-auto px-10 py-5 bg-white text-black rounded-2xl font-bold flex items-center justify-center gap-3 hover:scale-105 transition-transform">
+                        <i data-lucide="mail" class="w-5 h-5"></i> sanzid875@gmail.com
+                    </a>
+                    <a href="tel:+8801746479869"
+                        class="w-full md:w-auto px-10 py-5 bg-zinc-900 border border-zinc-800 rounded-2xl font-bold flex items-center justify-center gap-3 hover:bg-zinc-800 transition-colors">
+                        <i data-lucide="phone" class="w-5 h-5"></i> +8801746479869
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOCIAL CONNECT -->
+        <section id="connect" class="max-w-6xl mx-auto px-8 reveal mt-20">
+            <div class="flex items-center gap-6 mb-12">
+                <h2 class="text-4xl font-bold tracking-tight">Connect_</h2>
+                <div class="h-px flex-grow bg-zinc-900"></div>
+                <span class="mono text-xs text-zinc-500 uppercase tracking-widest">Network_Nodes</span>
+            </div>
+
+            <div id="social-links" class="flex flex-wrap justify-center gap-6">
+                <!-- Injected via JavaScript -->
+            </div>
+        </section>
+
+        <footer class="max-w-6xl mx-auto px-8 mt-40 pb-20">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-20">
+                <div class="lg:col-span-8 space-y-12">
+                    <h2
+                        class="text-[12vw] md:text-[8vw] font-black tracking-tighter text-white opacity-5 leading-none select-none pointer-events-none display-font">
+                        SANZID ZAMAN
+                    </h2>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-12">
+                        <div class="space-y-4">
+                            <h4 class="mono text-[10px] font-bold text-white uppercase tracking-widest">Exploration_
+                            </h4>
+                            <ul class="space-y-2 text-xs text-zinc-400 mono">
+                                <li><a href="#about" class="hover:text-white transition-colors">Origins</a></li>
+                                <li><a href="#matrix" class="hover:text-white transition-colors">Capabilities</a></li>
+                                <li><a href="#projects" class="hover:text-white transition-colors">Case_Studies</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="space-y-4">
+                            <h4 class="mono text-[10px] font-bold text-white uppercase tracking-widest">Connect_</h4>
+                            <ul class="space-y-2 text-xs text-zinc-400 mono">
+                                <li><a href="https://github.com/sanzid1367"
+                                        class="hover:text-white transition-colors">GitHub</a></li>
+                                <li><a href="https://www.linkedin.com/in/sanzid-zaman-2630922b7/"
+                                        class="hover:text-white transition-colors">LinkedIn</a></li>
+                            </ul>
+                        </div>
+                        <div class="space-y-4">
+                            <h4 class="mono text-[10px] font-bold text-white uppercase tracking-widest">Status_</h4>
+                            <ul class="space-y-2 text-xs text-zinc-400 mono">
+                                <li class="flex items-center gap-2"><span
+                                        class="w-1.5 h-1.5 bg-white rounded-full"></span> Remote Ready</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="lg:col-span-4 bg-zinc-900/60 border border-white/5 rounded-3xl p-10 flex flex-col justify-between">
+                    <div>
+                        <p class="mono text-[10px] text-zinc-500 uppercase mb-4 tracking-widest">Closing Note</p>
+                        <p class="text-zinc-300 text-sm leading-relaxed">
+                            Looking forward to discussing how I can contribute to your project or team through rigorous
+                            development and thoughtful design.
+                        </p>
+                    </div>
+                    <div class="pt-8 flex items-center justify-between">
+                        <div class="mono text-[10px] text-zinc-600">
+                            © 2026 / SANZID ZAMAN </br> Made with &#10084; by <a class="footer-url" target="_blank" href="https://yosynd.vercel.app">Yosynd</a>.
+                        </div>
+                        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+                            class="w-10 h-10 bg-white text-black rounded-full flex items-center justify-center hover:bg-zinc-200 transition-colors">
+                            <i data-lucide="chevron-up" class="w-5 h-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Application Script -->
+    <script src="script.js" defer></script>
+</body>
+
+</html>

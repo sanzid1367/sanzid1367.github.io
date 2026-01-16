@@ -95,6 +95,10 @@
     }
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     background-color: var(--obsidian);
     color: var(--vault-accent);
@@ -412,4 +416,5 @@ h3,
     text-decoration: underline;
     text-decoration-color: #d4ff3f;
     color: #d4ff3f;
+
 }

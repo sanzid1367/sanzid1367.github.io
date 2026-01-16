@@ -160,6 +160,7 @@ h3,
     background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(255, 255, 255, 0.03) 0%, transparent 50%);
     opacity: 0;
     transition: opacity 0.3s;
+    pointer-events: none;
 }
 
 .bento-card:hover::after {
@@ -418,3 +419,4 @@ h3,
     color: #d4ff3f;
 
 }
+
